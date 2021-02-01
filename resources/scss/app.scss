@@ -1,54 +1,61 @@
 @import './variables';
-
-body{
+body {
     font-family: 'Lato', sans-serif;
     -webkit-font-smoothing: antialiased;
     color: $dark;
 }
 
-nav li:last-child a{
+nav li:last-child a {
     background-color: $primary;
     color: $pure;
-    &:hover{
+    &:hover {
         background-color: $primary-hover;
     }
 }
 
-nav li a{
+nav li a {
     transition: $smooth;
-    &:hover{
+    &:hover {
         color: $primary;
     }
-
 }
 
-section.hero{
+section.hero {
     background-color: $secondary;
 }
 
-.size{
+.size {
     background-color: $secondary;
 }
 
-.add-to-cart{
+.add-to-cart {
     border: 2px solid $primary;
     color: $primary;
     transition: $smooth;
-    &:hover{
+    &:hover {
         background-color: $primary;
         border: $pure;
         color: $pure;
     }
 }
 
-.btn-primary{
+.btn-primary {
     background-color: $primary;
     transition: $smooth;
-    &:hover{
+    &:hover {
         background-color: $primary-hover;
     }
 }
 
-.cart{
+.cart {
+    background-color: $secondary;
+}
+
+.amount {
+    color: $primary;
+}
+
+.register,
+.login {
     background-color: $secondary;
 }
